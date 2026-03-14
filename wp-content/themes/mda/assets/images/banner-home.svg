@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350">
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef7ed"/>
+      <stop offset="100%" style="stop-color:#fef3e2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="350" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles in background -->
+  <circle cx="100" cy="50" r="120" fill="#f59e0b" opacity="0.08"/>
+  <circle cx="1100" cy="300" r="150" fill="#1e3a7b" opacity="0.05"/>
+
+  <!-- Sun with rays -->
+  <g transform="translate(1050, 80)">
+    <circle cx="0" cy="0" r="55" fill="url(#sunGradient)"/>
+    <circle cx="0" cy="0" r="65" fill="#fbbf24" opacity="0.3"/>
+    <!-- Sun rays -->
+    <g stroke="#fbbf24" stroke-width="3" opacity="0.6">
+      <line x1="0" y1="-75" x2="0" y2="-90"/>
+      <line x1="53" y1="-53" x2="63" y2="-63"/>
+      <line x1="75" y1="0" x2="90" y2="0"/>
+      <line x1="53" y1="53" x2="63" y2="63"/>
+      <line x1="-53" y1="-53" x2="-63" y2="-63"/>
+      <line x1="-75" y1="0" x2="-90" y2="0"/>
+    </g>
+  </g>
+
+  <!-- Main text group -->
+  <g transform="translate(80, 100)">
+    <!-- "Bienvenue" with decorative styling -->
+    <text x="0" y="50" font-family="Georgia, serif" font-size="22" fill="#f59e0b" font-style="italic">Bienvenue</text>
+
+    <!-- Main heading -->
+    <text x="0" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700">
+      <tspan fill="#1e3a7b" font-size="52">Maison des </tspan>
+      <tspan fill="#f59e0b" font-size="52">Aînés</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#64748b">
+      Marche-en-Famenne
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" fill="#1e3a7b" opacity="0.8">
+      Un lieu de rencontre convivial pour les 50+
+    </text>
+  </g>
+
+  <!-- Character group - right side -->
+  <g transform="translate(750, 85)">
+
+    <!-- Woman figure (orange dress) -->
+    <g transform="translate(0, 0)">
+      <!-- Head -->
+      <circle cx="55" cy="30" r="28" fill="#f59e0b"/>
+      <!-- Hair detail -->
+      <ellipse cx="55" cy="18" rx="20" ry="12" fill="#d97706"/>
+      <!-- Body/dress -->
+      <path d="M30 60 Q30 70 35 85 L40 150 Q55 160 70 150 L75 85 Q80 70 80 60 Q55 50 30 60" fill="#f59e0b"/>
+      <!-- Arms -->
+      <path d="M30 70 Q15 85 20 100" stroke="#f59e0b" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <path d="M80 70 Q95 75 105 65" stroke="#f59e0b" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <!-- Hand wave -->
+      <circle cx="108" cy="62" r="8" fill="#fcd9b6"/>
+      <!-- Legs -->
+      <line x1="45" y1="150" x2="40" y2="195" stroke="#1e3a7b" stroke-width="8" stroke-linecap="round"/>
+      <line x1="65" y1="150" x2="70" y2="195" stroke="#1e3a7b" stroke-width="8" stroke-linecap="round"/>
+      <!-- Speech bubble -->
+      <g transform="translate(90, -20)">
+        <rect x="0" y="0" width="70" height="40" rx="15" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+        <polygon points="15,40 25,55 35,40" fill="white"/>
+        <polygon points="17,40 25,52 33,40" fill="white"/>
+        <!-- Chat lines -->
+        <line x1="12" y1="15" x2="55" y2="15" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+        <line x1="12" y1="26" x2="45" y2="26" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Man figure (white/light clothing) -->
+    <g transform="translate(150, 10)">
+      <!-- Head -->
+      <circle cx="55" cy="30" r="28" fill="#fbbf24"/>
+      <!-- Hair/cap detail -->
+      <path d="M30 25 Q35 10 55 8 Q75 10 80 25" fill="#1e3a7b"/>
+      <!-- Body/shirt -->
+      <path d="M30 60 Q30 70 33 85 L38 145 Q55 155 72 145 L77 85 Q80 70 80 60 Q55 50 30 60" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+      <!-- Arms -->
+      <path d="M30 70 Q20 90 25 110" stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+      <path d="M30 70 Q20 90 25 110" stroke="#e5e7eb" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.5"/>
+      <path d="M80 70 Q95 80 100 100" stroke="white" stroke-width="14" fill="none" stroke-linecap="round"/>
+      <path d="M80 70 Q95 80 100 100" stroke="#e5e7eb" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.5"/>
+      <!-- Hands -->
+      <circle cx="25" cy="115" r="8" fill="#fcd9b6"/>
+      <circle cx="103" cy="105" r="8" fill="#fcd9b6"/>
+      <!-- Pants -->
+      <line x1="45" y1="145" x2="38" y2="195" stroke="#1e3a7b" stroke-width="10" stroke-linecap="round"/>
+      <line x1="65" y1="145" x2="72" y2="195" stroke="#1e3a7b" stroke-width="10" stroke-linecap="round"/>
+      <!-- Speech bubble -->
+      <g transform="translate(-50, -30)">
+        <rect x="0" y="0" width="60" height="35" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+        <polygon points="40,35 50,48 55,35" fill="white"/>
+        <polygon points="42,35 50,45 53,35" fill="white"/>
+        <!-- Heart icon -->
+        <path d="M25 12 C20 8 12 10 12 18 C12 24 25 30 25 30 C25 30 38 24 38 18 C38 10 30 8 25 12" fill="#f59e0b"/>
+      </g>
+    </g>
+
+    <!-- Third figure peeking (adds depth and community feel) -->
+    <g transform="translate(280, 60)" opacity="0.7">
+      <!-- Head -->
+      <circle cx="35" cy="30" r="24" fill="#64748b"/>
+      <!-- Body hint -->
+      <ellipse cx="35" cy="75" rx="25" ry="30" fill="#94a3b8"/>
+      <!-- Wave hand -->
+      <circle cx="70" cy="55" r="7" fill="#fcd9b6"/>
+      <path d="M55 70 Q65 60 70 55" stroke="#94a3b8" stroke-width="10" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Decorative elements -->
+  <g opacity="0.6">
+    <!-- Small decorative dots -->
+    <circle cx="650" cy="300" r="5" fill="#f59e0b"/>
+    <circle cx="680" cy="320" r="3" fill="#fbbf24"/>
+    <circle cx="620" cy="310" r="4" fill="#1e3a7b"/>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="80" y="320" width="200" height="4" rx="2" fill="#f59e0b"/>
+  <rect x="290" y="320" width="80" height="4" rx="2" fill="#fbbf24"/>
+</svg>
