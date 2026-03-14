@@ -25,11 +25,11 @@ wp search-replace 'old-domain.com' 'new-domain.com' --dry-run
 
 ## Architecture
 
-### Active Theme: mda-theme (wp-content/themes/mda-theme/)
+### Active Theme: mda-theme (wp-content/themes/mda/)
 Custom FSE block theme built for MDA. No build tools required.
 
 ```
-mda-theme/
+mda/
 ├── assets/images/       # Theme images (logo.png)
 ├── parts/               # Template parts
 │   ├── header.html      # Site header with logo and navigation
