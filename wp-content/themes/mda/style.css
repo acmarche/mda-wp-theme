@@ -33,6 +33,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* Sticky header */
+.wp-block-template-part[data-slug="header"],
+header.wp-block-template-part {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
 /* Navigation hover effects */
 .wp-block-navigation .wp-block-navigation-item__content:hover {
 	color: var(--wp--preset--color--secondary) !important;
