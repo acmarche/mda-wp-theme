@@ -263,7 +263,7 @@
 		"blocks": {
 			"core/navigation": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "500"
 				},
 				"elements": {
